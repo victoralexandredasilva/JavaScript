@@ -60,7 +60,7 @@ input#btn {
     border-radius: 5px;
 }
 
-input#rmv {
+button#removeList {
     padding: 5px;
     border-radius: 5px;
 }

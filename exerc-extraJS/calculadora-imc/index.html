@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="my-form" method="get">
+        <h1>Calculator IMC</h1>
+        <div class="msg"></div>
+        
+        <label for="name" id="labelName">Name:*</label>
+        <input type="text" name="name" id="inputName">
+        <label for="height" id="labelHeight">Height:*</label>
+        <input type="number" name="height" id="inputHeight" min="1" max="2.50" step="0.01">
+        <label for="weight" id="labelWeight">Weight:*</label>
+        <input type="number" name="weight" id="inputWeight">
+        <input type="submit" value="Verificar" id="btn">
+    </form>
+
+        <div class="box-items">
+            <ul class="items">
+                <!-- <li class="item">Item1</li> -->
+            </ul>
+        </div>
+
+<script src="index.js"></script>
+</body>
+</html>

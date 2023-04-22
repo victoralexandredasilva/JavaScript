@@ -35,15 +35,6 @@ btn.addEventListener('click' ,(e) => {
     nameInput.value = ''
     emailInput.value = ''
     nameInput.focus()
-
-    })
-
-const removeList = document.querySelector('removeList')
-removeList.addEventListener('click', (a) => {
-    a.preventDefault()
-    
-    items.remove
 })
-
 
 

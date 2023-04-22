@@ -61,8 +61,13 @@ input#btn {
 }
 
 button#removeList {
+    display: block;
     padding: 5px;
     border-radius: 5px;
+    font-size: 13pt;
+    padding: 3px 10px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 ul {

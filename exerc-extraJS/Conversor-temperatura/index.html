@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Escalas Termométricas</h1>
+        <div class="input-temp">
+            Temperatura: <input type="number" name="temp" id="temp">
+        </div>
+        <div class="scale-temp">
+            <div class="celsius">
+                <input type="radio" name="scaletemp" id="scaleCel" checked>
+                <label for="scaleCel">Celsius(°C)</label>
+            </div>
+            
+            <div class="farenheit">
+                <input type="radio" name="scaletemp" id="scaleFar">
+                <label for="scaleFar">Farenheit(°F)</label>
+            </div>
+
+            <div class="kelvin">
+                <input type="radio" name="scaletemp" id="scaleKel">
+                <label for="scaleKel">Kelvin(K)</label>
+            </div>
+        </div>
+        <button type="submit" class="btn">Verificar</button>
+
+        <div class="res"></div>
+    </section>
+
+<script src="index.js"></script>
+</body>
+</html>

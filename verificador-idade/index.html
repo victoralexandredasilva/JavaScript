@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section>
+        <h1>Verificador de Idade</h1>
+
+        <div class="inputIdade">
+            <label for="age"><span class="material-symbols-outlined">
+                calendar_montha
+                </span></label>
+            <input type="number" name="age" id="age" placeholder="Ano de Nascimento">
+        </div>    
+
+                <div class="inputSexo">
+                    <input type="radio" name="sexo" id="sexoMasc">
+                    <label for="sexo">Masculino</label>
+                    <input type="radio" name="sexo" id="sexoFemi">
+                    <label for="sexo">Feminino</label>
+                </div>
+            <button type="submit" id="btn">Verificar</button>
+        
+        <div class="resultado">
+            Preencha os dados acima para ver o resultado...
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

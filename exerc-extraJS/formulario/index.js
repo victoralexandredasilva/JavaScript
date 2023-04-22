@@ -39,7 +39,9 @@ btn.addEventListener('click' ,(e) => {
     })
 
 const removeList = document.querySelector('removeList')
-rmv.addEventListener('click', () => {
+removeList.addEventListener('click', (e) => {
+    e.preventDefault()
+    
     items.remove
 })
 

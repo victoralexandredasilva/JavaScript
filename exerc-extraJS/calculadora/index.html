@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <div class="calculadora">
+        <div class="screen"></div>
+        <div>
+            <button class="button" id="buttonClear" onclick="clean()">C</button>
+            <button class="button" id="buttonOperations" onclick="backString()">→</button>
+            <button class="button" id="buttonOperations" onclick="insert('/100')">%</button>
+            <button class="button" id="buttonOperations" onclick="insert('/')">÷</button>
+        </div>
+        <div>
+            <button class="button" onclick="insert('7')">7</button></td>
+            <button class="button" onclick="insert('8')">8</button></td>
+            <button class="button" onclick="insert('9')">9</button></td>
+            <button class="button" id="buttonOperations" onclick="insert('*')">×</button></td>
+        </div>
+        <div>
+            <button class="button" onclick="insert('4')">4</button></td>
+            <button class="button" onclick="insert('5')">5</button></td>
+            <button class="button" onclick="insert('6')">6</button></td>
+            <button class="button" id="buttonOperations" onclick="insert('-')">–</button></td>
+        </div>
+        <div>
+            <button class="button" onclick="insert('1')">1</button></td>
+            <button class="button" onclick="insert('2')">2</button></td>
+            <button class="button" onclick="insert('3')">3</button></td>
+            <button class="button" id="buttonOperations" onclick="insert('+')">+</button></td>
+        </div>
+        <div>
+            <button class="button" onclick="insert('-')">+/–</button></td>
+            <button class="button" onclick="insert('0')">0</button></td>
+            <button class="button" onclick="insert('.')">.</button></td>
+            <button class="button" id="buttonEqual" onclick="calcular()">=</button></td>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>

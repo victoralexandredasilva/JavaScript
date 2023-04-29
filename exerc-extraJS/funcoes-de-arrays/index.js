@@ -6,10 +6,10 @@
 /*Criar uma array com números e retornar uma lista com os numeros multiplicados por 5+*/
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8 , 9 , 10]
 
-let multipliedBytwo = numbers.map((number) => number * 5) //modo arrow function
+let multiplied = numbers.map((number) => number * 5) //modo arrow function
 
 console.log(`Os números da array original são:${numbers}`)
-console.log(`Os números da array multiplicada por 5 são: ${multipliedBytwo}`)
+console.log(`Os números da array multiplicada por 5 são: ${multiplied}`)
 
 //FILTER//
 

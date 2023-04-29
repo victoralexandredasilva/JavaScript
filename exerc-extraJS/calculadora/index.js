@@ -4,9 +4,6 @@ const screen = document.querySelector('.screen')
 function insert(num) {
     let numero = screen.innerHTML
     screen.innerHTML = numero + num
-    if(numero.length > 15) {
-        window.alert('erro')
-    }
 }
 
 function clean() {

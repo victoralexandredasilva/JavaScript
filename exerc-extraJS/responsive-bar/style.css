@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url(img/Canada-lake-mountains-sunset-water-reflection_1920x1200.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-bar-mobile {
+    display: none;
+}
+
+.toggle-button-menu {
+    display: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.8rem;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li {
+    margin-left: 50px;
+}
+
+@media screen and (min-width: 0) and (max-width: 600px) {
+    .nav-bar {
+        display: none;
+    }
+    .hide {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #fff;
+        width: 200px;
+        height: 180px;
+        text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .4s;
+    }
+
+    .hide li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        transition: .3s;
+        height: 60px;
+    }
+
+    .hide li:hover {
+        background-color: #c0bebe;
+    }
+
+    .hide a {
+        color: #000;
+    }
+    
+    .toggle-button-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+        border: 2px solid #000;
+        width: 100%;
+        padding: 0 10px;
+        background-color: #fff;
+        outline: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        transition: .2s;
+        z-index: 1;
+    }
+
+    .toggle-button-menu:hover {
+        scale: 1.1;
+    }
+
+    .toggle-button-menu:active {
+        scale: 0.8;
+    }
+
+    .toggle-button-menu > i {
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 200px) {
+    .toggle-button-menu {
+        width: 40px;
+        height: 40px;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+
+    .toggle-button-menu > i {
+        font-size: 14px;
+    }
+
+    .logo {
+        display: none;
+    }
+}

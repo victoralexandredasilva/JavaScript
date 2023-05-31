@@ -11,7 +11,6 @@ class Person {
 }
 
 const person = new Person('Victor', 'Silva', 16)
-const person2 = new Person ('Cleverson', 'Faville', 27)
-console.log(person, person2)
+console.log(person)
 
 Person.speak()
